@@ -29,6 +29,7 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
+    - r-digest                     # [build_platform != target_platform]
   host:
     - r-base
     - r-digest
